@@ -22,7 +22,7 @@ nltk.download("punkt")
 nltk.download('wordnet')
 nltk.download('brown')
 
-df = pd.read_csv("drugtrain.csv")
+df = pd.read_csv("/workspaces/Exploring-Patient-Sentiment-in-Drug-Reviews/datasets_drugRVS/drugTrain.csv")
 df.head()
 
 def clean_text(text):
